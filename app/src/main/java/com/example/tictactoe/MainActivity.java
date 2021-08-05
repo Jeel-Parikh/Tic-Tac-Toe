@@ -111,6 +111,38 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        }
     }
+    public void reset(View view)
+    {
+        game=true;
+        for(i=0;i<=8;i++)
+        {
+            state[i]=2;
+        }
+        cnt=0;
+//        ImageView img=(ImageView)view;
+//        img.setImageResource(0);
+        ImageView img=findViewById(R.id.imageView0);
+        img.setImageResource(0);
+        ImageView img1=findViewById(R.id.imageView1);
+        img1.setImageResource(0);
+        ImageView img2=findViewById(R.id.imageView2);
+        img2.setImageResource(0);
+        ImageView img3=findViewById(R.id.imageView3);
+        img3.setImageResource(0);
+        ImageView img4=findViewById(R.id.imageView4);
+        img4.setImageResource(0);
+        ImageView img5=findViewById(R.id.imageView5);
+        img5.setImageResource(0);
+        ImageView img6=findViewById(R.id.imageView6);
+        img6.setImageResource(0);
+        ImageView img7=findViewById(R.id.imageView7);
+        img7.setImageResource(0);
+        ImageView img8=findViewById(R.id.imageView8);
+        img8.setImageResource(0);
+        activeUser=0;
+        TextView status=findViewById(R.id.Status);
+        status.setText("Start the game");
+    }
 
 //    void check() {
 //        int i, j;

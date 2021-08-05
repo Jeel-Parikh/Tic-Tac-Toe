@@ -3,4 +3,5 @@
     <string name="Tital">Welcome Tic-Tac-Toe</string>
     <string name="grid" />
     <string name="Status">Start the game</string>
+    <string name="Reset">Reset</string>
 </resources>
